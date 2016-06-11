@@ -1,0 +1,7 @@
+<ion-view view-title="DatePicker">
+  <ion-content>
+    <ionic-datepicker idate="currentDate" ng-click="openDatePicker()" callback="datePickerCallback" title="title">
+      <button class="button button-block button-positive" id={{'datepickerItemX'+item.id}}> {{ currentDate | date:'dd - MMMM - yyyy' }} </button>
+    </ionic-datepicker>
+  </ion-content>
+</ion-view>

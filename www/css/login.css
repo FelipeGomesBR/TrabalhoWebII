@@ -1,0 +1,76 @@
+*::-webkit-input-placeholder {
+    color: #fff!important;
+}
+*:-moz-placeholder { /* FF 4-18 */
+    color: #fff!important;
+}
+*::-moz-placeholder { /* FF 19+ */
+    color: #fff!important;
+}
+*:-ms-input-placeholder { /* IE 10+ */
+    color: #fff!important;
+}
+.body-login{
+    background-color: #15B35A;
+    height: 100%;
+    padding-top: 70px;
+}
+.div-titulo-login{
+    margin-bottom: 5em;
+}
+.titulo-login{
+    color: #fff;
+    font-size: 42px;
+}
+.div-campos-login{
+    border-bottom: 1px solid #fff;
+}
+.div-campos-login.active{
+    border-bottom: 3px solid #fff!important;
+}
+.campos-login{
+    background-color: #15B35A;
+    border: none;
+}
+.input-login{
+    background-color: #15B35A;
+    border: none;
+    box-shadow: none;
+    font-style: italic;
+    color: #fff;
+}
+.input-login:focus{
+    box-shadow: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    color: #fff;
+}
+.btn-logar{
+    background-color: #fff;
+    color: #31BB6D;
+    border: 0;
+    font-size: 20px;
+    height: 3em;
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+.texto-login{
+    color: #fff;
+}
+.link-esqueceu-senha:link, .link-esqueceu-senha:visited{
+    text-decoration: none;
+    color: #fff;
+}
+/*.div-ajuda{
+    margin: 6em 0em 3em 0em;
+}*/
+.link-contato:link, .link-contato:visited, .link-contato, .link-contato:hover{
+    text-decoration: none;
+    color: #0C7138;
+}
+@media screen and (max-width: 350px){
+    .titulo-login{
+        font-size: 32px;
+    }
+}

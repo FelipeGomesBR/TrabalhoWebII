@@ -1,0 +1,7 @@
+<ion-view view-title="Foto">
+<ion-content>
+    <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}">
+    <img ng-show="imgURI === undefined" ng-src="http://placehold.it/300x300">
+    <button class="button button-block button-positive" ng-click="takePicture()">Tirar Foto</button>
+</ion-content>
+</ion-view>
